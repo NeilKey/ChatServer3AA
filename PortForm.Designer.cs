@@ -86,11 +86,13 @@
             this.Controls.Add(this.savePortButton);
             this.Controls.Add(this.setPortTextBox);
             this.Controls.Add(this.setPortLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PortForm";
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Port Form";
             this.ResumeLayout(false);
             this.PerformLayout();

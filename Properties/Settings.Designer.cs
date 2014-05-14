@@ -34,5 +34,15 @@ namespace ChatServer3AA.Properties {
                 this["Port"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|\\UserAccounts.sdf")]
+        public string UserAccountsConnectionString {
+            get {
+                return ((string)(this["UserAccountsConnectionString"]));
+            }
+        }
     }
 }

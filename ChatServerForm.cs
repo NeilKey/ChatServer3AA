@@ -54,5 +54,11 @@ namespace ChatServer3AA
             Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             s.Bind(new IPEndPoint(Convert.ToInt32(serverIP), Convert.ToInt32(serverPort)));
         }
+
+        private void OnUserAccounts(object sender, EventArgs e)
+        {
+            UserAccountsForm userAccounts = new UserAccountsForm();
+            userAccounts.ShowDialog();
+        }
     }
 }
