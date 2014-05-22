@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*********************************************
+ * Autori : Jonathan De Boni
+ *          Enrico Bottani
+ *          Alessio Poretti
+ * ******************************************/
+
+
+using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Windows.Forms;
